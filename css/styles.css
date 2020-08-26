@@ -1,0 +1,185 @@
+body {
+  font-family: "Montserrat" !important;
+}
+
+h1, h2, h3 {
+  font-weight: 900 !important;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+#title {
+  background-color: #FF4C68;
+  color: #fff;
+}
+
+.big-heading {
+  font-size: 3.5rem !important;
+  line-height: 1.5 !important;
+}
+
+.icon-style {
+  font-size: 20px;
+}
+
+.container-fluid {
+  padding: 3% 15% 7% !important;
+}
+
+/* Navigation bar */
+
+.navbar {
+  padding: 0 0 4.5rem !important;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu" !important;
+  font-size: 2.5rem !important;
+  font-weight: 700 !important;
+}
+
+.nav-item {
+  padding: 0 18px !important;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: 300 !important;
+}
+
+/* Buttons */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* title image */
+
+.title-image {
+  width: 60%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  -webkit-transform:rotate(35deg);
+  -moz-transform: rotate(35deg);
+  -ms-transform: rotate(35deg);
+  -o-transform: rotate(35deg);
+  transform: rotate(35deg);
+  position: absolute;
+}
+
+/* features section */
+
+#features {
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.feature-box {
+  padding: 4.5%;
+  text-align: center;
+}
+
+.icon:hover {
+  color: #FF4C68;
+}
+
+/* Testimonials section */
+
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonal-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 20%;
+  border-radius: 100%;
+  margin-right: 2%;
+}
+
+/* Press section */
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 5px;
+}
+
+/* pricing section */
+
+#pricing {
+  text-align: center;
+  padding: 7% 15%;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+  text-align: center;
+}
+
+/* Call to Action */
+
+#cta {
+  text-align: center;
+  background-color: #FF4C68;
+}
+
+#cta h3 {
+  color: #fff;
+  line-height: 1.5;
+  font-size: 3.5rem;
+}
+
+.style-row-call {
+  padding: 7% 15%;
+}
+
+/* Footer */
+
+#footer {
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
